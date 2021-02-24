@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: auto 0;
+    box-sizing: border-box;
+}
+body{
+    background:hsl(207, 100%, 98%)
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+
+
+.attribution { 
+    font-size: 11px;
+   text-align: center;
+}
+.attribution a { 
+color: hsl(228, 45%, 44%);
+}
