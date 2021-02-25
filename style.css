@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: auto 0;
+    box-sizing: border-box;
+}
+body{
+    background:hsl(207, 100%, 98%)
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 4% 4%;
+}
+.logo{
+    max-width:170px;
+}
+.nav-btn{
+    background: transparent;
+    border-radius:20px;
+    padding: 7% 2%;
+    width:110px;
+    border: hsl(321, 100%, 78%) solid 2px;
+    color:hsl(321, 100%, 78%) ;
+    cursor: pointer;
+}
+ /*a:hover{
+    opacity: 0.2;
+ } */
+
+.attribution { 
+    font-size: 11px;
+   text-align: center;
+}
+.attribution a { 
+color: hsl(228, 45%, 44%);
+}
