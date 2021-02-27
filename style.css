@@ -72,14 +72,12 @@ nav{
 .together-section{
     background-image: url("/images/bg-section-top-desktop-1.svg") ,url("/images/bg-section-bottom-desktop-1.svg");
     background-repeat: no-repeat, no-repeat;
-    /* background-size: cover; */
     background-position: top , bottom;
     padding: 10% 0;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
 }
 .together-section-container{
     display: flex;
-    place-items: center;
     padding: 5% 7%;
     background: hsl(207, 100%, 98%);
 }
@@ -96,6 +94,38 @@ nav{
     font-size: 15px;
 }
 .together-img{
+    max-width:95%;
+}
+.conversation-section{
+    padding: 4% 0;
+}
+.conversation-container{
+    display: flex;
+    padding: 5% 5%;
+}
+.conversation-img{
+    max-width:90%;
+}
+.conversation-right{
+    margin-left:11%;
+}
+.user-section{
+    background-image: url("/images/bg-section-top-desktop-1.svg") ,url("/images/bg-section-bottom-desktop-1.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top , bottom;
+    padding: 10% 0;
+    margin-bottom: 3%;
+}
+.user-container{
+    display: flex;
+    padding: 5% 7%;
+    background: hsl(207, 100%, 98%);
+}
+.user-left{
+    margin-left:5%;
+    margin-right:15%;
+}
+.user-img{
     max-width:95%;
 }
 .attribution { 
