@@ -130,15 +130,21 @@ nav{
 }
 .community-section{
     text-align: center;
-    padding: 5% 0;
+    padding: 8% 0;
+    margin-bottom:7%;
 }
 .newsletter-section{
-   
+   background-image: url("/images/bg-footer-top-desktop.svg");
+   background-repeat: no-repeat;
+   background-position: top;
+   padding-top: 10%;
 }
 .newsletter-container{
     display: flex;
     justify-content: space-around;
     background: hsl(192, 100%, 9%);
+    margin-top:1%;
+    padding: 10% 0;
 }
 .attribution { 
     font-size: 11px;
