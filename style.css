@@ -128,6 +128,18 @@ nav{
 .user-img{
     max-width:95%;
 }
+.community-section{
+    text-align: center;
+    padding: 5% 0;
+}
+.newsletter-section{
+   
+}
+.newsletter-container{
+    display: flex;
+    justify-content: space-around;
+    background: hsl(192, 100%, 9%);
+}
 .attribution { 
     font-size: 11px;
    text-align: center;
